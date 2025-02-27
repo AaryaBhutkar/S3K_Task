@@ -18,32 +18,32 @@ const DashboardPage = () => {
   };
 
   // Updated mock data to match the PDF files
-  const reports = [
-    { 
-      id: 1, 
-      doctorName: "Dr. John Smith", 
-      report: "Report 1", 
-      reportType: "Medical Report", 
-      accepted: true,
-      path: "/reports/report1.pdf"
-    },
-    { 
-      id: 2, 
-      doctorName: "Dr. Sarah Johnson", 
-      report: "Report 2", 
-      reportType: "Diagnostic Reports", 
-      accepted: true,
-      path: "/reports/report2.pdf"
-    },
-    { 
-      id: 3, 
-      doctorName: "Dr. Robert Lee", 
-      report: "Report 3", 
-      reportType: "Diagnostic Reports", 
-      accepted: true,
-      path: "/reports/report3.pdf"
-    }
-  ];
+  // const reports = [
+  //   { 
+  //     id: 1, 
+  //     doctorName: "Dr. John Smith", 
+  //     report: "Report 1", 
+  //     reportType: "Medical Report", 
+  //     accepted: true,
+  //     path: "/reports/report1.pdf"
+  //   },
+  //   { 
+  //     id: 2, 
+  //     doctorName: "Dr. Sarah Johnson", 
+  //     report: "Report 2", 
+  //     reportType: "Diagnostic Reports", 
+  //     accepted: true,
+  //     path: "/reports/report2.pdf"
+  //   },
+  //   { 
+  //     id: 3, 
+  //     doctorName: "Dr. Robert Lee", 
+  //     report: "Report 3", 
+  //     reportType: "Diagnostic Reports", 
+  //     accepted: true,
+  //     path: "/reports/report3.pdf"
+  //   }
+  // ];
 
   const handleSummaryChange = (content) => {
     setSummary(content);
@@ -56,7 +56,7 @@ const DashboardPage = () => {
   return (
     <div className="min-h-screen bg-gray-100">
       <header className="bg-purple-800 text-white p-4">
-        <h1 className="text-2xl font-bold">S3K Frontend UI Task</h1>
+        <h1 className="text-2xl font-bold">DASHBOARD</h1>
       </header>
       
       <main className="p-4 flex flex-row gap-4">
