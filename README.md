@@ -102,7 +102,7 @@ Built with Tailwind CSS featuring:
 
 ```bash
 npm start    # Development server
-
+```
 
 ## 🤝 Contributing
 
