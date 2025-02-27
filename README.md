@@ -97,7 +97,7 @@ Built with Tailwind CSS featuring:
 - Responsive design
 - Custom purple theme
 - Modern UI components
-
+- Custom Animation for HomePage
 ## 📜 Available Scripts
 
 ```bash
